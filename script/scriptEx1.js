@@ -1,14 +1,11 @@
 $(function () {
-    let width, height, top, left, r, g, b;
+    let width, height, top, left;
     $('#container').on('click', function () {
         width = Math.round(Math.random() * 400);
         height = Math.round(Math.random() * 400);
         top = Math.round(Math.random() * 600);
         left = Math.round(Math.random() * 1000);
-        r = Math.round(Math.random() * 255);
-        g = Math.round(Math.random() * 255);
-        b = Math.round(Math.random() * 255);
-        console.log(getRangomColor());
+        
         $('#container').animate({
             width: width,
             height: height,
