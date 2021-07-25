@@ -19,6 +19,7 @@ $(function () {
                 backgroundColor: currentElementBackgroundColor,
                 position: 'absolute',
             });
+
             $('.previewBox').show();
             $('.darkBackground').fadeIn(1000, 'easeOutBack');
             $('.previewBox').animate({
@@ -29,6 +30,7 @@ $(function () {
             }, 1000, 'easeOutBack')
         });
     });
+    
     $('.previewBox').on('click', function () {
         $('.darkBackground').fadeOut(1000, 'easeInBack');
         $('.previewBox').animate({

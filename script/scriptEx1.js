@@ -16,5 +16,4 @@ $(function () {
             backgroundColor: `rgb(${r},${g},${b})`
         }, 1500, 'easeOutBounce')
     });
-
 });
