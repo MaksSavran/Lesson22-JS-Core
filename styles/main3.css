@@ -1,0 +1,42 @@
+.wrapper {
+  width: 800px;
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.box:nth-of-type(1) {
+  background-color: orangered;
+}
+.box:nth-of-type(2) {
+  background-color: blue;
+}
+.box:nth-of-type(3) {
+  background-color: yellow;
+}
+.box:nth-of-type(4) {
+  background-color: lightskyblue;
+}
+.box:nth-of-type(5) {
+  background-color: lightslategray;
+}
+.darkBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.7;
+  display: none;
+}
+.previewBox {
+  width: 150px;
+  height: 150px;
+}
